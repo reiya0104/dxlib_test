@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}",
+                // DxLibのパス
+                "C:/DxLib/DxLib_GCC/include_GCC_MinGW/8_1_0_i686_w64_posix_dwarf_rt_v6_rev0",
+                "./include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "MBCS", // マルチバイト文字に変更
+                "_MBCS" // マルチバイト文字に変更
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            // 32bitコンパイラ・DxLibバージョンとほぼ同じもの
+            "compilerPath": "C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x86",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
